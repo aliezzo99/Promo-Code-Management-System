@@ -1,0 +1,18 @@
+Once all services are running, proceed with Keycloak configuration:
+
+  1. Open http://localhost:8080 in your browser
+  2. Click "Administration Console"
+  3. Login with admin / admin
+  4. Follow the configuration steps I provided earlier:
+    - Create realm promo-system
+    - Create clients promo-backend and promo-frontend
+    - Create roles ADMIN and BUSINESS
+    - Create users with tenant_id attribute
+
+  After Keycloak is configured, you can access the application at http://localhost:4200
+
+
+Client Secret: BMCZ74AHXnKLn4dGLIhpznmivxeqTpw6
+
+admin user: admin123
+business user: business123
